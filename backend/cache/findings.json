@@ -1,0 +1,5368 @@
+{
+  "generated": "2026-10-04 20:23 UTC",
+  "source": "openFDA device/event, device/recall, device/classification (CC0); FDA 2019 panel; FDA correction letters; CourtListener opinions.",
+  "findings": [
+    {
+      "id": "sureform",
+      "severity": "high",
+      "title": "A death the field search misses \u2014 SureForm 30 gray reload",
+      "device": "Intuitive SureForm 30 / 8 mm gray reload 48230M",
+      "codes": [
+        "GDW",
+        "NAY"
+      ],
+      "headline": "24 reports, 0 deaths \u2014 until you read the narrative",
+      "brief": "A MAUDE search for model number 48230M returns 24 reports and zero deaths, yet report 2955842-2026-01596 describes a fatal event during a robotic pulmonary lobectomy when the SureForm\u202f30 stapler (model 488530-13) fired on the pulmonary artery with no error message. \u201cIT APPEARED THAT NO STAPLES WERE APPLIED TO THE PA. THE STAPLER WAS REMOVED AND MASSIVE BLEEDING OCCURRED \u2026 DESPITE OPENING AND RESUSCITATION EFFORTS, THE PATIENT EXPIRED IN THE OPERATING ROOM.\u201d The report was received eight weeks before Intuitive\u2019s 11\u202fMarch\u202f2026 recall of the 8\u202fmm SureForm\u202f30 gray reloads, and the product number 48230M appears only in the free\u2011text field D10 of that report.",
+      "spotlight": {
+        "report_number": "2955842-2026-01596",
+        "date": "2026-01-16",
+        "event_type": "Death",
+        "field_device": "488530-13",
+        "quote": "IT APPEARED THAT NO STAPLES WERE APPLIED TO THE PA. THE STAPLER WAS REMOVED AND MASSIVE BLEEDING OCCURRED ... DESPITE OPENING AND RESUSCITATION EFFORTS, THE PATIENT EXPIRED IN THE OPERATING ROOM.",
+        "label": "Death filed under the stapler instrument; the recalled reload 48230M is only in the text."
+      },
+      "extraction": {
+        "failure_mode": "no staples formed",
+        "tissue": "pulmonary artery",
+        "device_in_text": "SUREFORM 30 CURVED TIP STAPLER",
+        "lot_in_text": "",
+        "harm": "death",
+        "device_returned": "no",
+        "one_line": "A SUREFORM 30 stapler fired with a gray reload failed to deploy staples, causing massive bleeding and patient death."
+      },
+      "next_steps": [
+        "Read every death in the wider Intuitive stapler set for a reload named only in the narrative.",
+        "Match report 2955842-2026-01596 against the 11 Mar 2026 recall lot and date.",
+        "Re-pull GDW and NAY for new 8 mm SureForm reports since the recall."
+      ],
+      "cannot_show": [
+        "MAUDE reports are unvalidated and carry no denominator (units sold or procedures), so they can never give a rate.",
+        "Before 2019 many stapler reports were filed as Alternative Summary Reports outside public MAUDE, so pre-2019 counts are undercounts.",
+        "Manufacturer reports include follow-ups and supplements, so a count of reports is not a count of patients.",
+        "Whether report 2955842-2026-01596 is the death FDA cites in the 11 Mar 2026 recall is not confirmed; it is consistent with it."
+      ],
+      "table": {
+        "caption": "Reports on reload 48230M (death row added)",
+        "rows": [
+          {
+            "report_number": "2955842-2026-01596",
+            "date": "2026-01-16",
+            "event_type": "Death",
+            "device": "488530-13",
+            "lot": "K14250807 0028",
+            "returned": "no",
+            "problem": "Firing Problem"
+          },
+          {
+            "report_number": "2955842-2022-12217",
+            "date": "2022-06-17",
+            "event_type": "Injury",
+            "device": "48230M-02",
+            "lot": "U90220330",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2022-14458",
+            "date": "2022-10-07",
+            "event_type": "Injury",
+            "device": "48230M-02",
+            "lot": "U90220518",
+            "returned": "no",
+            "problem": "Misfire; Detachment of Device or Device Component"
+          },
+          {
+            "report_number": "2955842-2022-14969",
+            "date": "2022-10-29",
+            "event_type": "Injury",
+            "device": "48230M-01",
+            "lot": "NA",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "2955842-2022-15058",
+            "date": "2022-11-03",
+            "event_type": "Malfunction",
+            "device": "48230M-02",
+            "lot": "U90220518",
+            "returned": "yes",
+            "problem": "Difficult to Insert; Difficult to Insert"
+          },
+          {
+            "report_number": "2955842-2022-15100",
+            "date": "2022-11-05",
+            "event_type": "Malfunction",
+            "device": "48230M-02",
+            "lot": "U90220518",
+            "returned": "yes",
+            "problem": "Difficult to Insert; Difficult to Insert"
+          },
+          {
+            "report_number": "2955842-2024-23698",
+            "date": "2024-12-27",
+            "event_type": "Injury",
+            "device": "48230M",
+            "lot": "U81231211",
+            "returned": "no",
+            "problem": "Firing Problem; Firing Problem"
+          },
+          {
+            "report_number": "2955842-2025-00022",
+            "date": "2025-01-03",
+            "event_type": "Injury",
+            "device": "48230M-06",
+            "lot": "N/A",
+            "returned": "yes",
+            "problem": "Firing Problem; Firing Problem"
+          },
+          {
+            "report_number": "2955842-2025-01169",
+            "date": "2025-02-07",
+            "event_type": "Injury",
+            "device": "48230M",
+            "lot": "N/A",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "21839229",
+            "date": "2025-04-15",
+            "event_type": "Malfunction",
+            "device": "48230M",
+            "lot": "U80230M",
+            "returned": "yes",
+            "problem": "Detachment of Device or Device Component"
+          },
+          {
+            "report_number": "22166392",
+            "date": "2025-06-09",
+            "event_type": "Malfunction",
+            "device": "48230M",
+            "lot": "U80231211",
+            "returned": "yes",
+            "problem": "Break; Activation, Positioning or Separation Problem"
+          },
+          {
+            "report_number": "2955842-2025-27065",
+            "date": "2025-06-24",
+            "event_type": "Malfunction",
+            "device": "48230M-06",
+            "lot": "U10241205",
+            "returned": "yes",
+            "problem": "Break; Break"
+          },
+          {
+            "report_number": "2955842-2025-29265",
+            "date": "2025-07-09",
+            "event_type": "Malfunction",
+            "device": "48230M-05",
+            "lot": "U80231211",
+            "returned": "yes",
+            "problem": "Detachment of Device or Device Component; Detachment of Device or Device Component"
+          },
+          {
+            "report_number": "2955842-2025-32630",
+            "date": "2025-08-02",
+            "event_type": "Malfunction",
+            "device": "48230M-06",
+            "lot": "K10250403",
+            "returned": "yes",
+            "problem": "Positioning Problem; Positioning Problem"
+          },
+          {
+            "report_number": "2955842-2025-32220",
+            "date": "2025-08-07",
+            "event_type": "Injury",
+            "device": "48230M",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Firing Problem"
+          },
+          {
+            "report_number": "2955842-2025-33388",
+            "date": "2025-08-11",
+            "event_type": "Malfunction",
+            "device": "48230M-06",
+            "lot": "U10241202",
+            "returned": "yes",
+            "problem": "Firing Problem; Firing Problem"
+          },
+          {
+            "report_number": "2955842-2025-34648",
+            "date": "2025-08-18",
+            "event_type": "Malfunction",
+            "device": "48230M-06",
+            "lot": "U10241202",
+            "returned": "yes",
+            "problem": "Material Integrity Problem; Material Integrity Problem"
+          },
+          {
+            "report_number": "2955842-2025-35186",
+            "date": "2025-08-26",
+            "event_type": "Malfunction",
+            "device": "48230M-06",
+            "lot": "K10250403",
+            "returned": "yes",
+            "problem": "Break; Break"
+          },
+          {
+            "report_number": "2955842-2025-44328",
+            "date": "2025-11-07",
+            "event_type": "Malfunction",
+            "device": "48230M-06",
+            "lot": "U80240801",
+            "returned": "yes",
+            "problem": "Break; Material Fragmentation"
+          },
+          {
+            "report_number": "2955842-2026-03950",
+            "date": "2026-02-17",
+            "event_type": "Injury",
+            "device": "48230M-01",
+            "lot": "N/A",
+            "returned": "yes",
+            "problem": "Firing Problem"
+          },
+          {
+            "report_number": "2955842-2026-14735",
+            "date": "2026-03-03",
+            "event_type": "Injury",
+            "device": "48230M",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Firing Problem"
+          },
+          {
+            "report_number": "2955842-2026-14734",
+            "date": "2026-03-03",
+            "event_type": "Injury",
+            "device": "48230M",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Misfire"
+          },
+          {
+            "report_number": "2955842-2026-14736",
+            "date": "2026-03-03",
+            "event_type": "Injury",
+            "device": "48230M",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Misfire"
+          },
+          {
+            "report_number": "2955842-2026-20581",
+            "date": "2026-04-07",
+            "event_type": "Injury",
+            "device": "48230M-08",
+            "lot": "UNKNOWN",
+            "returned": "no",
+            "problem": "Firing Problem"
+          },
+          {
+            "report_number": "2955842-2026-26680",
+            "date": "2026-06-01",
+            "event_type": "Injury",
+            "device": "48230M-06",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Failure to Form Staple"
+          }
+        ]
+      },
+      "chart": {
+        "kind": "bars",
+        "title": "What the field search returns for reload 48230M",
+        "unit": "reports",
+        "data": [
+          {
+            "label": "Malfunction",
+            "value": 11
+          },
+          {
+            "label": "Injury",
+            "value": 13
+          },
+          {
+            "label": "Death",
+            "value": 0,
+            "note": "0 in the fields; 1 in the narrative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vasecr35",
+      "severity": "high",
+      "title": "Recalled lots named in reports before the maker's letter \u2014 Echelon VASECR35",
+      "device": "Ethicon Endopath Echelon Vascular White Reload (VASECR35)",
+      "codes": [
+        "GDW"
+      ],
+      "headline": "28 of 57 recalled lots were already in the reports",
+      "brief": "FDA\u2019s 22\u202fApril\u202f2025 correction for VASECR35 identified 57 affected lots, of which 28 appear in MAUDE reports covering 89 total reports. Fourteen of those reports arrived before the correction letter, the earliest dated 2024\u201112\u201117, including a death reported as 3005075853\u20112025\u201102636 on lot\u202f326D66, which quotes \u201cTHE STAPLES FELL BY OPENING THE STAPLING AND THERE WAS LEAKAGE \u2026 THE PATIENT EXPIRED.\u201d Lockout\u2011type narratives were two or fewer per year from 2016 through 2024 and rose to 59 in 2025.",
+      "spotlight": {
+        "report_number": "3005075853-2025-02636",
+        "date": "2025-04-10",
+        "event_type": "Death",
+        "field_device": "326D66",
+        "quote": "THE STAPLES FELL BY OPENING THE STAPLING AND THERE WAS LEAKAGE ... THE PATIENT EXPIRED.",
+        "label": "A death on lot 326D66, received 12 days before Ethicon's correction letter named that lot."
+      },
+      "next_steps": [
+        "Alert on any report whose lot is on an FDA correction list but received before the letter.",
+        "Review the 14 pre-letter reports on matched lots for a common failure mode.",
+        "Hold the lockout cluster as a watch item, not a signal, until volume or harm rises."
+      ],
+      "cannot_show": [
+        "MAUDE reports are unvalidated and carry no denominator (units sold or procedures), so they can never give a rate.",
+        "Before 2019 many stapler reports were filed as Alternative Summary Reports outside public MAUDE, so pre-2019 counts are undercounts.",
+        "Manufacturer reports include follow-ups and supplements, so a count of reports is not a count of patients.",
+        "A lot named in a report is not proof that the lot caused the harm.",
+        "Reports name 28 of the 57 lots; the other 29 may simply not have been reported, not that they were safe."
+      ],
+      "table": {
+        "caption": "89 reports naming a recalled lot",
+        "rows": [
+          {
+            "report_number": "3005075853-2024-09653",
+            "date": "2024-12-17",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; No Apparent Adverse Event"
+          },
+          {
+            "report_number": "3005075853-2024-09878",
+            "date": "2024-12-30",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "948C78",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-00222",
+            "date": "2025-01-08",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "112D03",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-00352",
+            "date": "2025-01-13",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "918C15",
+            "returned": "yes",
+            "problem": "Failure to Fire; Difficult to Open or Close"
+          },
+          {
+            "report_number": "3005075853-2025-00859",
+            "date": "2025-01-31",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "112D03",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-01197",
+            "date": "2025-02-13",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "125D04",
+            "returned": "no",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-01567",
+            "date": "2025-02-27",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "112D03",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-02066",
+            "date": "2025-03-20",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "112D03",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-02268",
+            "date": "2025-03-27",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-02272",
+            "date": "2025-03-27",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-02274",
+            "date": "2025-03-27",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-02419",
+            "date": "2025-04-01",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "990C81",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-02595",
+            "date": "2025-04-08",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "938C92",
+            "returned": "yes",
+            "problem": "Failure to Fire; No Apparent Adverse Event"
+          },
+          {
+            "report_number": "3005075853-2025-02636",
+            "date": "2025-04-10",
+            "event_type": "Death",
+            "device": "VASECR35",
+            "lot": "326D66",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-03261",
+            "date": "2025-05-01",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "125D04",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03262",
+            "date": "2025-05-01",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03559",
+            "date": "2025-05-12",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "134D80",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03561",
+            "date": "2025-05-12",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "134D80",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03558",
+            "date": "2025-05-12",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03560",
+            "date": "2025-05-12",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03573",
+            "date": "2025-05-13",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "134D80",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03572",
+            "date": "2025-05-13",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "962C74",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03619",
+            "date": "2025-05-14",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "112D03",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03615",
+            "date": "2025-05-14",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "962C74",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03911",
+            "date": "2025-05-23",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "167D13",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03919",
+            "date": "2025-05-23",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "167D13",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-03897",
+            "date": "2025-05-23",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "962C74",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-04206",
+            "date": "2025-06-04",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "270D69",
+            "returned": "yes",
+            "problem": "No Apparent Adverse Event; No Apparent Adverse Event"
+          },
+          {
+            "report_number": "3005075853-2025-04210",
+            "date": "2025-06-04",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "929C38",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-04395",
+            "date": "2025-06-10",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "194D77",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-04559",
+            "date": "2025-06-17",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "378D04",
+            "returned": "no",
+            "problem": "Failure to Form Staple; No Apparent Adverse Event"
+          },
+          {
+            "report_number": "3005075853-2025-04557",
+            "date": "2025-06-17",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "378D04",
+            "returned": "no",
+            "problem": "Failure to Form Staple; No Apparent Adverse Event"
+          },
+          {
+            "report_number": "3005075853-2025-04783",
+            "date": "2025-06-27",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "378D04",
+            "returned": "no",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-05121",
+            "date": "2025-07-02",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "948C78",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-05134",
+            "date": "2025-07-02",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "948C78",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-05485",
+            "date": "2025-07-14",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Self-Activation or Keying; Self-Activation or Keying"
+          },
+          {
+            "report_number": "3005075853-2025-05799",
+            "date": "2025-07-23",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "948C78",
+            "returned": "yes",
+            "problem": "Failure to Fire; No Apparent Adverse Event"
+          },
+          {
+            "report_number": "3005075853-2025-05856",
+            "date": "2025-07-24",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "918C15",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-05918",
+            "date": "2025-07-25",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "270D69",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-05982",
+            "date": "2025-07-29",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "159D49",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-06055",
+            "date": "2025-07-31",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "317D74",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-06188",
+            "date": "2025-08-05",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "378D04",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-06400",
+            "date": "2025-08-13",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "378D04",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; No Apparent Adverse Event"
+          },
+          {
+            "report_number": "3005075853-2025-06474",
+            "date": "2025-08-14",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-06657",
+            "date": "2025-08-20",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "134D80",
+            "returned": "no",
+            "problem": "Delivered as Unsterile Product; Delivered as Unsterile Product"
+          },
+          {
+            "report_number": "3005075853-2025-06711",
+            "date": "2025-08-21",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "419D47",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-06764",
+            "date": "2025-08-22",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "134D80",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-06836",
+            "date": "2025-08-27",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "134D80",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-07059",
+            "date": "2025-09-05",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "413D56",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-07385",
+            "date": "2025-09-17",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "234D11",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-07377",
+            "date": "2025-09-17",
+            "event_type": "Injury",
+            "device": "VASECR35",
+            "lot": "895C93",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-07378",
+            "date": "2025-09-17",
+            "event_type": "Injury",
+            "device": "VASECR35",
+            "lot": "895C93",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-07505",
+            "date": "2025-09-22",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "442D83",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-07602",
+            "date": "2025-09-25",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "502D90",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-07624",
+            "date": "2025-09-26",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "194D77",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-07628",
+            "date": "2025-09-26",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "419D47",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-07965",
+            "date": "2025-10-15",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "918C15",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-07959",
+            "date": "2025-10-15",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-07960",
+            "date": "2025-10-15",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-07962",
+            "date": "2025-10-15",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-07961",
+            "date": "2025-10-15",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-07997",
+            "date": "2025-10-15",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-08067",
+            "date": "2025-10-16",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "413D56",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-08069",
+            "date": "2025-10-16",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "413D56",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-08169",
+            "date": "2025-10-21",
+            "event_type": "Injury",
+            "device": "VASECR35",
+            "lot": "175D72",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-08168",
+            "date": "2025-10-21",
+            "event_type": "Injury",
+            "device": "VASECR35",
+            "lot": "175D72",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-08185",
+            "date": "2025-10-22",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "506D29",
+            "returned": "yes",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2025-08633",
+            "date": "2025-11-06",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "261D10",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-08870",
+            "date": "2025-11-17",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "413D56",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-08868",
+            "date": "2025-11-17",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "502D90",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "23582289",
+            "date": "2025-11-18",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "261D10",
+            "returned": "\u2014",
+            "problem": "Misfire"
+          },
+          {
+            "report_number": "3005075853-2025-08914",
+            "date": "2025-11-19",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "378D04",
+            "returned": "yes",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-09818",
+            "date": "2025-12-26",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "456D87",
+            "returned": "yes",
+            "problem": "Ejection Problem; Ejection Problem"
+          },
+          {
+            "report_number": "3005075853-2026-00167",
+            "date": "2026-01-06",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "413D56",
+            "returned": "yes",
+            "problem": "Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2026-00436",
+            "date": "2026-01-13",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "502D90",
+            "returned": "yes",
+            "problem": "Difficult to Open or Close; Mechanical Jam"
+          },
+          {
+            "report_number": "3005075853-2026-00438",
+            "date": "2026-01-13",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "502D90",
+            "returned": "no",
+            "problem": "Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2026-00661",
+            "date": "2026-01-22",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "125D04",
+            "returned": "yes",
+            "problem": "Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2026-00662",
+            "date": "2026-01-22",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "194D77",
+            "returned": "yes",
+            "problem": "Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2026-00870",
+            "date": "2026-01-29",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "378D04",
+            "returned": "yes",
+            "problem": "Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2026-01285",
+            "date": "2026-02-11",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "167D13",
+            "returned": "no",
+            "problem": "Appropriate Device Problem Term/Code Not Available"
+          },
+          {
+            "report_number": "3005075853-2026-01935",
+            "date": "2026-03-10",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "502D90",
+            "returned": "yes",
+            "problem": "Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2026-02766",
+            "date": "2026-04-13",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "979C81",
+            "returned": "yes",
+            "problem": "No Apparent Adverse Event"
+          },
+          {
+            "report_number": "3005075853-2026-04009",
+            "date": "2026-05-28",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "506D29",
+            "returned": "\u2014",
+            "problem": "Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2026-04132",
+            "date": "2026-06-01",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "125D04",
+            "returned": "yes",
+            "problem": "Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2026-04394",
+            "date": "2026-06-09",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "125D04",
+            "returned": "yes",
+            "problem": "Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2026-04406",
+            "date": "2026-06-09",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "125D04",
+            "returned": "yes",
+            "problem": "Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2026-04933",
+            "date": "2026-06-24",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "194D77",
+            "returned": "yes",
+            "problem": "Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2026-06378",
+            "date": "2026-08-06",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "270D69",
+            "returned": "yes",
+            "problem": "Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2026-06818",
+            "date": "2026-08-18",
+            "event_type": "Malfunction",
+            "device": "VASECR35",
+            "lot": "317D73",
+            "returned": "yes",
+            "problem": "Failure to Fire; Difficult to Open or Close"
+          }
+        ]
+      },
+      "chart": {
+        "kind": "bars",
+        "title": "Lockout-type narratives by year (the honest negative)",
+        "unit": "reports",
+        "data": [
+          {
+            "label": "2017",
+            "value": 2
+          },
+          {
+            "label": "2020",
+            "value": 1
+          },
+          {
+            "label": "2023",
+            "value": 1
+          },
+          {
+            "label": "2025",
+            "value": 59,
+            "note": "recall year"
+          },
+          {
+            "label": "2026",
+            "value": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "codetrap",
+      "severity": "high",
+      "title": "The code trap \u2014 deaths filed under the staple code, not the stapler",
+      "device": "All surgical staplers & staples (product codes GAG, GDW)",
+      "codes": [
+        "GAG",
+        "GDW"
+      ],
+      "headline": "404 of 412 deaths were under the staple code \u2014 GAG shows 278, GDW shows 1103",
+      "brief": "According to the FDA\u2019s 2019 panel analysis, of the 412 deaths reported for stapler\u2011staple events between 2011 and 2018, 404 were coded under the staple code (GDW) and only 8 under the stapler code (GAG). Current MAUDE data show the stapler code (GAG) associated with 278 death reports while the staple code (GDW) has 1103 death reports. Malfunction reports for surgical staplers increased from 3,843 in 2016 to 10,023 in 2017 and 12,951 in 2018 after the Alternative Summary Reporting exemption ended, and the FDA reclassified internal\u2011use surgical staplers from class\u202fI to class\u202fII with special controls in 2021 (86\u202fFR\u202f56195).",
+      "spotlight": {
+        "report_number": "FDA panel, 30 May 2019",
+        "date": "2019-05-30",
+        "event_type": "analysis",
+        "field_device": "412 deaths, 2011-2018",
+        "quote": "404 of 412 deaths were reported under the staple product code, not the stapler product code.",
+        "label": "The split is FDA's own finding; Lot Watch pulls GDW and NAY, not just GAG."
+      },
+      "next_steps": [
+        "Always pull the staple code (GDW) and the robotic code (NAY) alongside the stapler code (GAG).",
+        "Treat a death under a staple or component code as a stapler death for clustering.",
+        "Flag any device whose deaths sit disproportionately under a component code."
+      ],
+      "cannot_show": [
+        "MAUDE reports are unvalidated and carry no denominator (units sold or procedures), so they can never give a rate.",
+        "Before 2019 many stapler reports were filed as Alternative Summary Reports outside public MAUDE, so pre-2019 counts are undercounts.",
+        "Manufacturer reports include follow-ups and supplements, so a count of reports is not a count of patients.",
+        "The 2011-2018 figures are FDA's; the 51% filed as summary reports were not in public MAUDE for pre-2017 years at all."
+      ],
+      "table": {
+        "caption": "Public MAUDE counts by product code",
+        "rows": [
+          {
+            "report_number": "GAG \u2014 Stapler, Surgical",
+            "date": "",
+            "event_type": "Death",
+            "device": "278",
+            "lot": "6735",
+            "returned": "19572",
+            "problem": "class II, 878.4740"
+          },
+          {
+            "report_number": "GDW \u2014 Staple, Implantable",
+            "date": "",
+            "event_type": "Death",
+            "device": "1103",
+            "lot": "31986",
+            "returned": "137096",
+            "problem": "class II, 878.4750"
+          }
+        ],
+        "columns_override": [
+          "code",
+          "",
+          "",
+          "deaths",
+          "injuries",
+          "malfunctions",
+          "regulation"
+        ]
+      },
+      "chart": {
+        "kind": "bars",
+        "title": "Death reports by product code (public MAUDE, all years)",
+        "unit": "death reports",
+        "data": [
+          {
+            "label": "Stapler code (GAG)",
+            "value": 278
+          },
+          {
+            "label": "Staple code (GDW)",
+            "value": 1103,
+            "note": "where the deaths actually sit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cdh29a",
+      "severity": "medium",
+      "title": "Circular stapler CDH29A \u2014 reports clustered by failure mode",
+      "device": "Ethicon Proximate ILS Curved Intraluminal Stapler (CDH29A)",
+      "codes": [
+        "GDW",
+        "GAG"
+      ],
+      "headline": "300 reports sorted into 8 failure modes by reading the text",
+      "brief": "The 300 MAUDE reports on the Ethicon circular stapler CDH29A were categorized by failure mode as follows: 84 incomplete staple line, 80 other, 41 no staples formed, 35 lockout/would not fire, 33 misfire, 15 not stated, 9 staple/fragment left, and 3 uncut or retained washer (300 reports). CDH29A is the device family subject to Ethicon\u2019s 11\u202fApril\u202f2019 Class\u202fI recall of 92,496 units for insufficient firing and failure to completely form staples. In Hershberger v. Ethicon (S.D.\u202fW.\u202fVa.\u202f2011), a CDH29 stapler cut tissue but fired no staples; Ethicon\u2019s initial search used only the \u201cmissing staples\u201d complaint code, while a later search for \u201cwould not staple\u201d identified 125 additional incidents, 44 of which were deemed similar by the plaintiffs, and the court imposed $53,350.36 in discovery sanctions without finding bad faith or ruling on liability.",
+      "spotlight": {
+        "report_number": "Hershberger v. Ethicon, 277 F.R.D. 299",
+        "date": "2011-09-23",
+        "event_type": "court finding",
+        "field_device": "CDH29",
+        "quote": "Ethicon searched one complaint code (\"missing staples\") and not \"would not staple\"; later searches under that code turned up 125 more incidents, of which plaintiffs counted 44 as similar. The magistrate judge called the first response \"unreasonable in the extreme and, frankly, nonsensical.\"",
+        "label": "Similar reports sat under a different complaint code and were not searched at first \u2014 the gap Lot Watch closes by reading the text."
+      },
+      "next_steps": [
+        "Cluster the insufficient-firing and uncut-washer reports against the 2019 Class I recall.",
+        "Treat \"would not staple\" and \"missing staples\" as one failure mode, not two codes.",
+        "Carry the Hershberger coding lesson into every complaint-database search."
+      ],
+      "cannot_show": [
+        "MAUDE reports are unvalidated and carry no denominator (units sold or procedures), so they can never give a rate.",
+        "Before 2019 many stapler reports were filed as Alternative Summary Reports outside public MAUDE, so pre-2019 counts are undercounts.",
+        "Manufacturer reports include follow-ups and supplements, so a count of reports is not a count of patients.",
+        "This is a 300-report sample (received April 2020 to August 2021) of about 2,548 CDH29A reports; the mix of failure modes may shift across the full set.",
+        "Hershberger's merits outcome is not verified; the $53,350.36 is a discovery sanction, not a liability finding."
+      ],
+      "table": {
+        "caption": "300 CDH29A reports",
+        "rows": [
+          {
+            "report_number": "3005075853-2020-02349",
+            "date": "2020-04-27",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40091",
+            "returned": "yes",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-02455",
+            "date": "2020-05-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T41419",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-02458",
+            "date": "2020-05-01",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02459",
+            "date": "2020-05-01",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02461",
+            "date": "2020-05-01",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02463",
+            "date": "2020-05-01",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-02464",
+            "date": "2020-05-01",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02470",
+            "date": "2020-05-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02473",
+            "date": "2020-05-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4127R",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02475",
+            "date": "2020-05-04",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02523",
+            "date": "2020-05-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40M5L",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02535",
+            "date": "2020-05-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4019R",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02547",
+            "date": "2020-05-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4146X",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-02558",
+            "date": "2020-05-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-02562",
+            "date": "2020-05-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4150J",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-02603",
+            "date": "2020-05-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-02736",
+            "date": "2020-05-28",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02740",
+            "date": "2020-05-28",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-02768",
+            "date": "2020-06-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4016F",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-02834",
+            "date": "2020-06-03",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40T93",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-02871",
+            "date": "2020-06-05",
+            "event_type": "Death",
+            "device": "CDH29A",
+            "lot": "P4RY1E",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-02907",
+            "date": "2020-06-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-02980",
+            "date": "2020-06-11",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U4052V",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03008",
+            "date": "2020-06-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40N2J",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-03012",
+            "date": "2020-06-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4010H",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03014",
+            "date": "2020-06-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4010H",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03018",
+            "date": "2020-06-15",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40L9Y",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-03107",
+            "date": "2020-06-19",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40L9Y",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-03111",
+            "date": "2020-06-19",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-03117",
+            "date": "2020-06-22",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4052V",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03122",
+            "date": "2020-06-22",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4052V",
+            "returned": "yes",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-03169",
+            "date": "2020-06-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40M5L",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-03171",
+            "date": "2020-06-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40L9Y",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-03195",
+            "date": "2020-06-25",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "P4RF0A",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03200",
+            "date": "2020-06-25",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03219",
+            "date": "2020-06-26",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T4138X",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03220",
+            "date": "2020-06-26",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40512",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03221",
+            "date": "2020-06-26",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40X0P",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03224",
+            "date": "2020-06-26",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T4138X",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-03242",
+            "date": "2020-06-29",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "R40F3X",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-03243",
+            "date": "2020-06-29",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-03409",
+            "date": "2020-07-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40389",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03418",
+            "date": "2020-07-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40N2F",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-03500",
+            "date": "2020-07-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4033F",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03523",
+            "date": "2020-07-13",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4105M",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-03532",
+            "date": "2020-07-13",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40H2H",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03562",
+            "date": "2020-07-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40419",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-03563",
+            "date": "2020-07-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40419",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-03633",
+            "date": "2020-07-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40191",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03639",
+            "date": "2020-07-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4019V",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-03649",
+            "date": "2020-07-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T41352",
+            "returned": "yes",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2020-03650",
+            "date": "2020-07-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-03651",
+            "date": "2020-07-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40A2W",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-03754",
+            "date": "2020-07-23",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40962",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-03753",
+            "date": "2020-07-23",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "P4T58C",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-03770",
+            "date": "2020-07-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40817",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03799",
+            "date": "2020-07-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4150J",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03818",
+            "date": "2020-07-27",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4052V",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03829",
+            "date": "2020-07-27",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "P4RA1V",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03843",
+            "date": "2020-07-28",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-03876",
+            "date": "2020-07-29",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4150H",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-03895",
+            "date": "2020-07-30",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40N1Y",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-03952",
+            "date": "2020-08-03",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-03978",
+            "date": "2020-08-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T41444",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-04035",
+            "date": "2020-08-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4021L",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04122",
+            "date": "2020-08-14",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U4075D",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04170",
+            "date": "2020-08-18",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40H7C",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04196",
+            "date": "2020-08-19",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4116H",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04261",
+            "date": "2020-08-21",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40X83",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "10441725",
+            "date": "2020-08-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "440962",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-04279",
+            "date": "2020-08-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-04287",
+            "date": "2020-08-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40T8V",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04293",
+            "date": "2020-08-24",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04294",
+            "date": "2020-08-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4033F",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04298",
+            "date": "2020-08-24",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T4137T",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04342",
+            "date": "2020-08-26",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04343",
+            "date": "2020-08-26",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04344",
+            "date": "2020-08-26",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4082D",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-04396",
+            "date": "2020-08-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4080T",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-04415",
+            "date": "2020-08-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4019R",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04567",
+            "date": "2020-09-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40817",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-04634",
+            "date": "2020-09-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4135A",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04659",
+            "date": "2020-09-14",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40Z3Z",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04770",
+            "date": "2020-09-21",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40169",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-04775",
+            "date": "2020-09-21",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04824",
+            "date": "2020-09-22",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4089U",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-04826",
+            "date": "2020-09-22",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40L5E",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-04827",
+            "date": "2020-09-22",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40L5E",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04828",
+            "date": "2020-09-22",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40L5E",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-04831",
+            "date": "2020-09-22",
+            "event_type": "Death",
+            "device": "CDH29A",
+            "lot": "T40L5E",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-04834",
+            "date": "2020-09-22",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40191",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04848",
+            "date": "2020-09-23",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-04849",
+            "date": "2020-09-23",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04851",
+            "date": "2020-09-23",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04897",
+            "date": "2020-09-24",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04918",
+            "date": "2020-09-25",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40L5E",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04920",
+            "date": "2020-09-25",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04921",
+            "date": "2020-09-25",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40962",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-04915",
+            "date": "2020-09-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "\u2014",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-04940",
+            "date": "2020-09-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-04941",
+            "date": "2020-09-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E5L",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04944",
+            "date": "2020-09-28",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40A2W",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04946",
+            "date": "2020-09-28",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U4052V",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-04950",
+            "date": "2020-09-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4065Z",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-04951",
+            "date": "2020-09-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4019R",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-04955",
+            "date": "2020-09-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40X1D",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-04958",
+            "date": "2020-09-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C9V",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-05012",
+            "date": "2020-09-29",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2020-05021",
+            "date": "2020-09-29",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T41443",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-05049",
+            "date": "2020-09-30",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4019V",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-05051",
+            "date": "2020-09-30",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4049J",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-05126",
+            "date": "2020-10-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-05132",
+            "date": "2020-10-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D3M",
+            "returned": "no",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2020-05133",
+            "date": "2020-10-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D3M",
+            "returned": "no",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2020-05135",
+            "date": "2020-10-05",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T4105R",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-05203",
+            "date": "2020-10-08",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40C7Y",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-05258",
+            "date": "2020-10-12",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U4080T",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-05262",
+            "date": "2020-10-13",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-05268",
+            "date": "2020-10-13",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-05272",
+            "date": "2020-10-13",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T4100E",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-05294",
+            "date": "2020-10-13",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4052V",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-05295",
+            "date": "2020-10-13",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T41207",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-05303",
+            "date": "2020-10-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-05335",
+            "date": "2020-10-15",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40Y5Z",
+            "returned": "no",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-05628",
+            "date": "2020-10-29",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40A7J",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-05779",
+            "date": "2020-11-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C4G",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-05780",
+            "date": "2020-11-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-05813",
+            "date": "2020-11-06",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-05950",
+            "date": "2020-11-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-05987",
+            "date": "2020-11-13",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C0J",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-06021",
+            "date": "2020-11-16",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "P4RT10",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06079",
+            "date": "2020-11-17",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06084",
+            "date": "2020-11-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "M4H85E",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-06086",
+            "date": "2020-11-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4019R",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-06098",
+            "date": "2020-11-18",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D3M",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-06149",
+            "date": "2020-11-19",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4067C",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06169",
+            "date": "2020-11-20",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-06170",
+            "date": "2020-11-20",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-06176",
+            "date": "2020-11-20",
+            "event_type": "Death",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-06213",
+            "date": "2020-11-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40A87",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06282",
+            "date": "2020-11-30",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4049J",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06286",
+            "date": "2020-11-30",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E3X",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-06349",
+            "date": "2020-12-02",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E3X",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06395",
+            "date": "2020-12-04",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40C14",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06439",
+            "date": "2020-12-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40F73",
+            "returned": "yes",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2020-06446",
+            "date": "2020-12-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40512",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06456",
+            "date": "2020-12-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C9X",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-06458",
+            "date": "2020-12-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C9X",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06460",
+            "date": "2020-12-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4075D",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-06499",
+            "date": "2020-12-08",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40C6L",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06504",
+            "date": "2020-12-08",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40C14",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-06510",
+            "date": "2020-12-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4114F",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06512",
+            "date": "2020-12-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E5L",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-06515",
+            "date": "2020-12-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40A38",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-06565",
+            "date": "2020-12-09",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40J1W",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06568",
+            "date": "2020-12-09",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06614",
+            "date": "2020-12-10",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T4147Z",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06615",
+            "date": "2020-12-10",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06632",
+            "date": "2020-12-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C6L",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-06636",
+            "date": "2020-12-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E58",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06648",
+            "date": "2020-12-10",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06664",
+            "date": "2020-12-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C4G",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06682",
+            "date": "2020-12-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4016F",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-06713",
+            "date": "2020-12-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40J4C",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06755",
+            "date": "2020-12-14",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2020-06761",
+            "date": "2020-12-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C4G",
+            "returned": "yes",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2020-06874",
+            "date": "2020-12-16",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40M5L",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-06877",
+            "date": "2020-12-16",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D8L",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2020-06921",
+            "date": "2020-12-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40L4Z",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2020-06941",
+            "date": "2020-12-17",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40G4P",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2020-07039",
+            "date": "2020-12-22",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4023V",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2020-07034",
+            "date": "2020-12-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4016F",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-00130",
+            "date": "2021-01-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T4105M",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-00159",
+            "date": "2021-01-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D8L",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-00176",
+            "date": "2021-01-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40L5M",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-00192",
+            "date": "2021-01-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E5L",
+            "returned": "yes",
+            "problem": "uncut or retained washer"
+          },
+          {
+            "report_number": "3005075853-2021-00235",
+            "date": "2021-01-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C14",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-00242",
+            "date": "2021-01-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D8L",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-00260",
+            "date": "2021-01-13",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40M9H",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-00262",
+            "date": "2021-01-13",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D8L",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-00298",
+            "date": "2021-01-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C9X",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-00302",
+            "date": "2021-01-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D89",
+            "returned": "yes",
+            "problem": "uncut or retained washer"
+          },
+          {
+            "report_number": "3005075853-2021-00365",
+            "date": "2021-01-20",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-00368",
+            "date": "2021-01-20",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2021-00557",
+            "date": "2021-02-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D8L",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-00584",
+            "date": "2021-02-02",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-00586",
+            "date": "2021-02-02",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "MW5099194",
+            "date": "2021-02-02",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40H0A",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-00709",
+            "date": "2021-02-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40N6P",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-00716",
+            "date": "2021-02-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40817",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-00754",
+            "date": "2021-02-09",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40C6L",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-00755",
+            "date": "2021-02-09",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C2T",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-00757",
+            "date": "2021-02-09",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4010H",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-00833",
+            "date": "2021-02-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4019R",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-00898",
+            "date": "2021-02-17",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-00937",
+            "date": "2021-02-18",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T41419",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-00941",
+            "date": "2021-02-18",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E3K",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-00942",
+            "date": "2021-02-18",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40G4D",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-00987",
+            "date": "2021-02-22",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C0J",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-00991",
+            "date": "2021-02-22",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U4049J",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01000",
+            "date": "2021-02-22",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-01161",
+            "date": "2021-03-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E5L",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01165",
+            "date": "2021-03-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E3X",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01173",
+            "date": "2021-03-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01395",
+            "date": "2021-03-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "P4TC4E",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-01396",
+            "date": "2021-03-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4000U",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01440",
+            "date": "2021-03-16",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40J3T",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01470",
+            "date": "2021-03-18",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40L7Y",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01497",
+            "date": "2021-03-19",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40A3X",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01501",
+            "date": "2021-03-19",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40H9K",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-01504",
+            "date": "2021-03-19",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40078",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01530",
+            "date": "2021-03-22",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C9V",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-01626",
+            "date": "2021-03-30",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40V1L",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01629",
+            "date": "2021-03-30",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01644",
+            "date": "2021-03-30",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40D4K",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01691",
+            "date": "2021-04-01",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40F84",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01694",
+            "date": "2021-04-01",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40F84",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01730",
+            "date": "2021-04-02",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40F84",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01731",
+            "date": "2021-04-02",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40L1V",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01740",
+            "date": "2021-04-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40L7Y",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01741",
+            "date": "2021-04-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-01743",
+            "date": "2021-04-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2021-01744",
+            "date": "2021-04-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40L7Y",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-01746",
+            "date": "2021-04-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40J2A",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01760",
+            "date": "2021-04-05",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40T43",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01801",
+            "date": "2021-04-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-01810",
+            "date": "2021-04-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40P5N",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01803",
+            "date": "2021-04-07",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-01854",
+            "date": "2021-04-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-01932",
+            "date": "2021-04-12",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40J14",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01962",
+            "date": "2021-04-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40L7D",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-01963",
+            "date": "2021-04-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40L7D",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-01995",
+            "date": "2021-04-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "uncut or retained washer"
+          },
+          {
+            "report_number": "3005075853-2021-02000",
+            "date": "2021-04-14",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40K0X",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02021",
+            "date": "2021-04-15",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-02025",
+            "date": "2021-04-15",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40T11",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-02026",
+            "date": "2021-04-15",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40L7Y",
+            "returned": "no",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-02071",
+            "date": "2021-04-16",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "11717785",
+            "date": "2021-04-22",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40M9H",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-02256",
+            "date": "2021-04-26",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "MW5101045",
+            "date": "2021-04-27",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02402",
+            "date": "2021-04-30",
+            "event_type": "Malfunction",
+            "device": "CDH25A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-02413",
+            "date": "2021-04-30",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4024Z",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02461",
+            "date": "2021-05-04",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02497",
+            "date": "2021-05-06",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-02499",
+            "date": "2021-05-06",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2021-02503",
+            "date": "2021-05-06",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-02586",
+            "date": "2021-05-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02587",
+            "date": "2021-05-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40T11",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-02691",
+            "date": "2021-05-13",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02710",
+            "date": "2021-05-14",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02712",
+            "date": "2021-05-14",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02785",
+            "date": "2021-05-19",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U4082D",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02824",
+            "date": "2021-05-20",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40H8T",
+            "returned": "yes",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2021-02833",
+            "date": "2021-05-20",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02845",
+            "date": "2021-05-20",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "107A68",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-02846",
+            "date": "2021-05-20",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40J1W",
+            "returned": "no",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-02890",
+            "date": "2021-05-22",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "T40T8V",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-02904",
+            "date": "2021-05-24",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40J4C",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02905",
+            "date": "2021-05-24",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40J4C",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02906",
+            "date": "2021-05-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40P38",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02907",
+            "date": "2021-05-24",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40J4C",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-02908",
+            "date": "2021-05-24",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40J4C",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03105",
+            "date": "2021-06-04",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40P26",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-03146",
+            "date": "2021-06-07",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-03182",
+            "date": "2021-06-08",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03230",
+            "date": "2021-06-10",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03247",
+            "date": "2021-06-11",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "112A58",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03249",
+            "date": "2021-06-11",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40E5V",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03365",
+            "date": "2021-06-16",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40T11",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-03411",
+            "date": "2021-06-18",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "103A94",
+            "returned": "no",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-03415",
+            "date": "2021-06-18",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03439",
+            "date": "2021-06-21",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40T43",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03481",
+            "date": "2021-06-24",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03482",
+            "date": "2021-06-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03500",
+            "date": "2021-06-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03504",
+            "date": "2021-06-24",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40D6A",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-03598",
+            "date": "2021-06-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03605",
+            "date": "2021-06-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40962",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03608",
+            "date": "2021-06-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-03615",
+            "date": "2021-06-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40C0J",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-03626",
+            "date": "2021-06-29",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03633",
+            "date": "2021-06-29",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "125A95",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03731",
+            "date": "2021-07-07",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2021-03733",
+            "date": "2021-07-07",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40M9H",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03740",
+            "date": "2021-07-07",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40M9H",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-03826",
+            "date": "2021-07-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40R51",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03840",
+            "date": "2021-07-12",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-03886",
+            "date": "2021-07-14",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "126A31",
+            "returned": "yes",
+            "problem": "staple/fragment left"
+          },
+          {
+            "report_number": "3005075853-2021-03929",
+            "date": "2021-07-15",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "T40V9E",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-04108",
+            "date": "2021-07-23",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E5L",
+            "returned": "no",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-04171",
+            "date": "2021-07-27",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-04180",
+            "date": "2021-07-27",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "R4096R",
+            "returned": "yes",
+            "problem": "lockout / would not fire"
+          },
+          {
+            "report_number": "3005075853-2021-04215",
+            "date": "2021-07-28",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40P5N",
+            "returned": "yes",
+            "problem": "incomplete staple line"
+          },
+          {
+            "report_number": "3005075853-2021-04232",
+            "date": "2021-07-29",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "U40P5N",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-04243",
+            "date": "2021-07-29",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "U40E58",
+            "returned": "yes",
+            "problem": "no staples formed"
+          },
+          {
+            "report_number": "3005075853-2021-04336",
+            "date": "2021-08-02",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "191A57",
+            "returned": "yes",
+            "problem": "misfire"
+          },
+          {
+            "report_number": "3005075853-2021-04343",
+            "date": "2021-08-02",
+            "event_type": "Malfunction",
+            "device": "CDH29A",
+            "lot": "107A68",
+            "returned": "yes",
+            "problem": "other"
+          },
+          {
+            "report_number": "3005075853-2021-04376",
+            "date": "2021-08-03",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "not stated"
+          },
+          {
+            "report_number": "3005075853-2021-04433",
+            "date": "2021-08-04",
+            "event_type": "Injury",
+            "device": "CDH29A",
+            "lot": "133A79",
+            "returned": "yes",
+            "problem": "other"
+          }
+        ]
+      },
+      "chart": {
+        "kind": "bars",
+        "title": "CDH29A reports by failure mode (read by Nano)",
+        "unit": "reports",
+        "data": [
+          {
+            "label": "incomplete staple line",
+            "value": 84
+          },
+          {
+            "label": "other",
+            "value": 80
+          },
+          {
+            "label": "no staples formed",
+            "value": 41
+          },
+          {
+            "label": "lockout / would not fire",
+            "value": 35
+          },
+          {
+            "label": "misfire",
+            "value": 33
+          },
+          {
+            "label": "not stated",
+            "value": 15
+          },
+          {
+            "label": "staple/fragment left",
+            "value": 9
+          },
+          {
+            "label": "uncut or retained washer",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "notreturned",
+      "severity": "watch",
+      "title": "No device to examine \u2014 stapler & staple deaths, 2024-25",
+      "device": "All stapler & staple death reports, 2024-2025 (GAG, GDW)",
+      "codes": [
+        "GAG",
+        "GDW"
+      ],
+      "headline": "device not available for evaluation in 125 of 144 death reports",
+      "brief": "Among the 144 stapler\u2011staple death reports received in 2024\u20112025 (codes GAG and GDW), the manufacturer\u2019s record indicated that the device was not available for evaluation in 125 cases. A keyword search of all 144 narratives identified leak or dehiscence in 70 reports and bleeding in 65 reports, and when the device was unavailable the narrative served as the primary account of failure. The reports were distributed by manufacturer as 75 Covidien/Medtronic, 51 Ethicon/J&J, and 18 Intuitive.",
+      "spotlight": {
+        "report_number": "144 death reports, 2024-2025",
+        "date": "2024-2025",
+        "event_type": "Death",
+        "field_device": "125 with device unavailable",
+        "quote": "In 125 of 144 stapler/staple death reports, the device was recorded as not available for evaluation.",
+        "label": "When the device is gone, the only record of what failed is the narrative \u2014 which is what Lot Watch reads."
+      },
+      "next_steps": [
+        "Prioritise narrative extraction for deaths where the device was not available.",
+        "Track, per maker, how often the device is unavailable for evaluation.",
+        "Use the narrative failure mode when no failure analysis exists."
+      ],
+      "cannot_show": [
+        "MAUDE reports are unvalidated and carry no denominator (units sold or procedures), so they can never give a rate.",
+        "Before 2019 many stapler reports were filed as Alternative Summary Reports outside public MAUDE, so pre-2019 counts are undercounts.",
+        "Manufacturer reports include follow-ups and supplements, so a count of reports is not a count of patients.",
+        "\"Not available for evaluation\" is the manufacturer's own field; it does not say why the device was unavailable.",
+        "Maker buckets are by the reporting-manufacturer field and may group related corporate entities."
+      ],
+      "table": {
+        "caption": "144 death reports, 2024-2025",
+        "rows": [
+          {
+            "report_number": "2647580-2024-00124",
+            "date": "2024-01-08",
+            "event_type": "Death",
+            "device": "GIA6038L",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Mechanics Altered; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-00125",
+            "date": "2024-01-08",
+            "event_type": "Death",
+            "device": "GIA6038S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Mechanics Altered; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-00126",
+            "date": "2024-01-08",
+            "event_type": "Death",
+            "device": "TA6035S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Mechanics Altered; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-00265",
+            "date": "2024-01-12",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-00651",
+            "date": "2024-01-24",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-01275",
+            "date": "2024-02-13",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "A9EJ5X",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "3005075853-2024-01454",
+            "date": "2024-02-20",
+            "event_type": "Death",
+            "device": "NTLC55",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "2955842-2024-11801",
+            "date": "2024-02-23",
+            "event_type": "Death",
+            "device": "48360B",
+            "lot": "K13230720",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-01307",
+            "date": "2024-03-20",
+            "event_type": "Death",
+            "device": "TRIEEA28MT",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-01432",
+            "date": "2024-04-04",
+            "event_type": "Death",
+            "device": "UNKNOWN REINFORCED RELOAD",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-02718",
+            "date": "2024-04-09",
+            "event_type": "Death",
+            "device": "UNK_ECHELON CIRCULAR POWERED S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "1219930-2024-01517",
+            "date": "2024-04-10",
+            "event_type": "Death",
+            "device": "EGIA60AVM",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-01579",
+            "date": "2024-04-10",
+            "event_type": "Death",
+            "device": "EGIAUSHORT",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-01703",
+            "date": "2024-04-18",
+            "event_type": "Death",
+            "device": "UNKNOWN TA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-03063",
+            "date": "2024-04-19",
+            "event_type": "Death",
+            "device": "GCS40G",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "1219930-2024-01830",
+            "date": "2024-04-25",
+            "event_type": "Death",
+            "device": "GIA60MTC",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-02095",
+            "date": "2024-05-14",
+            "event_type": "Death",
+            "device": "UNKNOWN GIA PRODUCT",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-03652",
+            "date": "2024-05-15",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Failure to Fire; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-03763",
+            "date": "2024-05-21",
+            "event_type": "Death",
+            "device": "EC60A",
+            "lot": "X96E67",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-04083",
+            "date": "2024-06-04",
+            "event_type": "Death",
+            "device": "GST60B",
+            "lot": "688C18",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2024-04084",
+            "date": "2024-06-04",
+            "event_type": "Death",
+            "device": "GST60B",
+            "lot": "653C26",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2024-04085",
+            "date": "2024-06-04",
+            "event_type": "Death",
+            "device": "GST60B",
+            "lot": "688C18",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2024-04086",
+            "date": "2024-06-04",
+            "event_type": "Death",
+            "device": "GST60B",
+            "lot": "688C18",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2024-04087",
+            "date": "2024-06-04",
+            "event_type": "Death",
+            "device": "GST60B",
+            "lot": "688C18",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2024-04088",
+            "date": "2024-06-04",
+            "event_type": "Death",
+            "device": "GST60B",
+            "lot": "653C26",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "2647580-2024-02501",
+            "date": "2024-06-06",
+            "event_type": "Death",
+            "device": "EEA31",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-04170",
+            "date": "2024-06-07",
+            "event_type": "Death",
+            "device": "PSEE60A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "2647580-2024-02588",
+            "date": "2024-06-13",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-02656",
+            "date": "2024-06-17",
+            "event_type": "Death",
+            "device": "GIA8038S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-02657",
+            "date": "2024-06-17",
+            "event_type": "Death",
+            "device": "GIA8038L",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-02807",
+            "date": "2024-06-28",
+            "event_type": "Death",
+            "device": "TRIEEA31MT",
+            "lot": "P3F0087",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2024-04828",
+            "date": "2024-07-01",
+            "event_type": "Death",
+            "device": "CDHXX",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "2647580-2024-02982",
+            "date": "2024-07-09",
+            "event_type": "Death",
+            "device": "TRIEEA31MT",
+            "lot": "P3C0628",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-03021",
+            "date": "2024-07-10",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "2647580-2024-03022",
+            "date": "2024-07-10",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "1219930-2024-03152",
+            "date": "2024-07-11",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-03154",
+            "date": "2024-07-11",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-03192",
+            "date": "2024-07-12",
+            "event_type": "Death",
+            "device": "EGIA30AVM",
+            "lot": "N2F0606Y",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2024-17027",
+            "date": "2024-07-12",
+            "event_type": "Death",
+            "device": "48345W",
+            "lot": "UNKNOWN",
+            "returned": "no",
+            "problem": "Failure to Seal; Failure to Seal"
+          },
+          {
+            "report_number": "1219930-2024-03225",
+            "date": "2024-07-18",
+            "event_type": "Death",
+            "device": "SIG30AVM",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "2647580-2024-03216",
+            "date": "2024-07-24",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2024-17834",
+            "date": "2024-08-02",
+            "event_type": "Death",
+            "device": "48360G-06",
+            "lot": "UNKNOWN",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "2955842-2024-17833",
+            "date": "2024-08-02",
+            "event_type": "Death",
+            "device": "48360B-08",
+            "lot": "UNKNOWN",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "1219930-2024-03796",
+            "date": "2024-08-15",
+            "event_type": "Death",
+            "device": "SIGSDS30CTV",
+            "lot": "N4B1839UY",
+            "returned": "no",
+            "problem": "Misfire; Misfire"
+          },
+          {
+            "report_number": "1219930-2024-03797",
+            "date": "2024-08-15",
+            "event_type": "Death",
+            "device": "SIGPHANDLE",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Misfire; Misfire"
+          },
+          {
+            "report_number": "1219930-2024-03798",
+            "date": "2024-08-15",
+            "event_type": "Death",
+            "device": "UNKNOWN SIGNIA EGIA ADAPTER",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Misfire; Misfire"
+          },
+          {
+            "report_number": "3005075853-2024-06114",
+            "date": "2024-08-21",
+            "event_type": "Death",
+            "device": "GLC80",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "2647580-2024-03693",
+            "date": "2024-08-22",
+            "event_type": "Death",
+            "device": "UNKNOWN GIA PRODUCT",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-03694",
+            "date": "2024-08-22",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2024-19253",
+            "date": "2024-09-09",
+            "event_type": "Death",
+            "device": "48360W-08",
+            "lot": "UNKNOWN",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "2647580-2024-04059",
+            "date": "2024-09-18",
+            "event_type": "Death",
+            "device": "UNKNOWN TA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-04343",
+            "date": "2024-09-18",
+            "event_type": "Death",
+            "device": "UNKNOWN EGIA SU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Mechanics Altered; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-04438",
+            "date": "2024-09-23",
+            "event_type": "Death",
+            "device": "EGIA60AVM",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Detachment of Device or Device Component; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-04574",
+            "date": "2024-09-30",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-04306",
+            "date": "2024-10-04",
+            "event_type": "Death",
+            "device": "UNKNOWN GIA DST PRODUCT",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-07601",
+            "date": "2024-10-09",
+            "event_type": "Death",
+            "device": "TLC75",
+            "lot": "140D13",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "3005075853-2024-07906",
+            "date": "2024-10-21",
+            "event_type": "Death",
+            "device": "TLC75",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-07905",
+            "date": "2024-10-21",
+            "event_type": "Death",
+            "device": "TLC75",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-08112",
+            "date": "2024-10-25",
+            "event_type": "Death",
+            "device": "PXEE60A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "1219930-2024-05109",
+            "date": "2024-10-30",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-05198",
+            "date": "2024-11-05",
+            "event_type": "Death",
+            "device": "SIGPHANDLE",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Unintended Movement; Unintended Movement"
+          },
+          {
+            "report_number": "3005075853-2024-09201",
+            "date": "2024-12-05",
+            "event_type": "Death",
+            "device": "NTLC75",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2024-23455",
+            "date": "2024-12-18",
+            "event_type": "Death",
+            "device": "48630W-05",
+            "lot": "K10240822",
+            "returned": "no",
+            "problem": "Firing Problem; Firing Problem"
+          },
+          {
+            "report_number": "2955842-2025-00036",
+            "date": "2025-01-03",
+            "event_type": "Death",
+            "device": "48360B-08",
+            "lot": "UNKNOWN",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Cut"
+          },
+          {
+            "report_number": "1219930-2025-00041",
+            "date": "2025-01-03",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-00119",
+            "date": "2025-01-06",
+            "event_type": "Death",
+            "device": "GST45B",
+            "lot": "722C37",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "2647580-2025-00096",
+            "date": "2025-01-07",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-00293",
+            "date": "2025-01-09",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "M9CK92",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "2647580-2025-00161",
+            "date": "2025-01-10",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-00162",
+            "date": "2025-01-10",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-00160",
+            "date": "2025-01-10",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-00414",
+            "date": "2025-01-23",
+            "event_type": "Death",
+            "device": "GIA8038SBR",
+            "lot": "2410086G",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-01199",
+            "date": "2025-02-13",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Difficult to Open or Close; Activation Failure"
+          },
+          {
+            "report_number": "3005075853-2025-01280",
+            "date": "2025-02-18",
+            "event_type": "Death",
+            "device": "GCS40G",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "3005075853-2025-01370",
+            "date": "2025-02-20",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2025-01371",
+            "date": "2025-02-20",
+            "event_type": "Death",
+            "device": "PSEE60A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "2647580-2025-00579",
+            "date": "2025-02-20",
+            "event_type": "Death",
+            "device": "TA6035S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Mechanics Altered; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-01540",
+            "date": "2025-02-27",
+            "event_type": "Death",
+            "device": "ECXXX",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "3005075853-2025-01541",
+            "date": "2025-02-27",
+            "event_type": "Death",
+            "device": "GST60UNK",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "3005075853-2025-01708",
+            "date": "2025-03-04",
+            "event_type": "Death",
+            "device": "PXEE60A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "2955842-2025-13048",
+            "date": "2025-04-03",
+            "event_type": "Death",
+            "device": "48360T-08",
+            "lot": "UNKNOWN",
+            "returned": "no",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "3005075853-2025-02632",
+            "date": "2025-04-10",
+            "event_type": "Death",
+            "device": "TX30V",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Failure to Fire; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-02636",
+            "date": "2025-04-10",
+            "event_type": "Death",
+            "device": "VASECR35",
+            "lot": "326D66",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2025-14012",
+            "date": "2025-04-10",
+            "event_type": "Death",
+            "device": "48345M",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2025-02733",
+            "date": "2025-04-17",
+            "event_type": "Death",
+            "device": "ECH45S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "3005075853-2025-02884",
+            "date": "2025-04-23",
+            "event_type": "Death",
+            "device": "CDH29B",
+            "lot": "986C77",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-02967",
+            "date": "2025-04-24",
+            "event_type": "Death",
+            "device": "XR30V",
+            "lot": "319D73",
+            "returned": "no",
+            "problem": "Failure to Fire; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-02968",
+            "date": "2025-04-24",
+            "event_type": "Death",
+            "device": "XR30V",
+            "lot": "218D18",
+            "returned": "no",
+            "problem": "Failure to Fire; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-02969",
+            "date": "2025-04-24",
+            "event_type": "Death",
+            "device": "XR30V",
+            "lot": "251D00",
+            "returned": "no",
+            "problem": "Failure to Fire; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2025-20146",
+            "date": "2025-05-09",
+            "event_type": "Death",
+            "device": "48360G",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2025-23311",
+            "date": "2025-06-02",
+            "event_type": "Death",
+            "device": "48360W",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "3005075853-2025-04293",
+            "date": "2025-06-09",
+            "event_type": "Death",
+            "device": "NTLC75",
+            "lot": "929C58",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "3005075853-2025-04434",
+            "date": "2025-06-11",
+            "event_type": "Death",
+            "device": "ATS45",
+            "lot": "432D50",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-04429",
+            "date": "2025-06-11",
+            "event_type": "Death",
+            "device": "CDH33B",
+            "lot": "358D01",
+            "returned": "no",
+            "problem": "Failure to Fire; Failure to Fire"
+          },
+          {
+            "report_number": "1219930-2025-02688",
+            "date": "2025-06-23",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-01992",
+            "date": "2025-06-30",
+            "event_type": "Death",
+            "device": "UNKNOWN TA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Mechanics Altered; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-02898",
+            "date": "2025-07-10",
+            "event_type": "Death",
+            "device": "SIGSDS30CTVT",
+            "lot": "N4H1987UY",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-03103",
+            "date": "2025-07-21",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-05868",
+            "date": "2025-07-24",
+            "event_type": "Death",
+            "device": "ECH60S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-05867",
+            "date": "2025-07-24",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-03406",
+            "date": "2025-08-01",
+            "event_type": "Death",
+            "device": "UNKNOWN EGIA TRI STAPLE",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-03407",
+            "date": "2025-08-01",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2025-06966",
+            "date": "2025-09-03",
+            "event_type": "Death",
+            "device": "CDH25P",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Patient Device Interaction Problem; Patient Device Interaction Problem"
+          },
+          {
+            "report_number": "1219930-2025-03906",
+            "date": "2025-09-04",
+            "event_type": "Death",
+            "device": "EGIA60AMT",
+            "lot": "P5E0783",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-02696",
+            "date": "2025-09-04",
+            "event_type": "Death",
+            "device": "EGIA60AMT",
+            "lot": "P5E0783",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-02697",
+            "date": "2025-09-04",
+            "event_type": "Death",
+            "device": "EGIA60AMT",
+            "lot": "P5E0783",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-03907",
+            "date": "2025-09-04",
+            "event_type": "Death",
+            "device": "SIG60AXT",
+            "lot": "N5D1623Y",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-02698",
+            "date": "2025-09-04",
+            "event_type": "Death",
+            "device": "EGIA60AMT",
+            "lot": "P5E0783",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-02762",
+            "date": "2025-09-09",
+            "event_type": "Death",
+            "device": "030414",
+            "lot": "P2K0003",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "23050429",
+            "date": "2025-09-15",
+            "event_type": "Death",
+            "device": "EEA STAPLER",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Loss of or Failure to Bond; Failure to Seal"
+          },
+          {
+            "report_number": "1219930-2025-04136",
+            "date": "2025-09-18",
+            "event_type": "Death",
+            "device": "UNKNOWN EGIA SU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2025-37690",
+            "date": "2025-09-22",
+            "event_type": "Death",
+            "device": "48345W",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Firing Problem"
+          },
+          {
+            "report_number": "2955842-2025-37952",
+            "date": "2025-09-22",
+            "event_type": "Death",
+            "device": "48345W",
+            "lot": "N/A",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "1219930-2025-04379",
+            "date": "2025-10-01",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-03036",
+            "date": "2025-10-09",
+            "event_type": "Death",
+            "device": "UNKNOWN EEA",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-03144",
+            "date": "2025-10-20",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GI",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-05080",
+            "date": "2025-11-04",
+            "event_type": "Death",
+            "device": "UNKNOWN ENDO GIA SULU",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2955842-2025-44139",
+            "date": "2025-11-05",
+            "event_type": "Death",
+            "device": "480545-06",
+            "lot": "K11250501 0273",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "2955842-2025-45187",
+            "date": "2025-11-13",
+            "event_type": "Death",
+            "device": "48345W-01",
+            "lot": "UNKNOWN",
+            "returned": "no",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "3005075853-2025-09134",
+            "date": "2025-12-02",
+            "event_type": "Death",
+            "device": "GLC80",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-05614",
+            "date": "2025-12-05",
+            "event_type": "Death",
+            "device": "GIA8038L",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-03600",
+            "date": "2025-12-05",
+            "event_type": "Death",
+            "device": "GIA8038L",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-03612",
+            "date": "2025-12-08",
+            "event_type": "Death",
+            "device": "TA6035S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-03613",
+            "date": "2025-12-08",
+            "event_type": "Death",
+            "device": "GIA8038S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2025-03641",
+            "date": "2025-12-09",
+            "event_type": "Death",
+            "device": "TA9035S",
+            "lot": "\u2014",
+            "returned": "no",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "3005075853-2024-00089",
+            "date": "2024-01-05",
+            "event_type": "Death",
+            "device": "SC60A",
+            "lot": "A9D46H",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Cut"
+          },
+          {
+            "report_number": "3005075853-2024-01513",
+            "date": "2024-02-22",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "499C46",
+            "returned": "yes",
+            "problem": "Failure to Fire; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "2647580-2024-03879",
+            "date": "2024-09-06",
+            "event_type": "Death",
+            "device": "TA9048S",
+            "lot": "P3C0421",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-04434",
+            "date": "2024-09-22",
+            "event_type": "Death",
+            "device": "SIG30AVM",
+            "lot": "N2D0496Y",
+            "returned": "yes",
+            "problem": "Failure to Cut; Failure to Cut"
+          },
+          {
+            "report_number": "1219930-2024-04609",
+            "date": "2024-10-03",
+            "event_type": "Death",
+            "device": "EGIA60AVM",
+            "lot": "N4A2100Y",
+            "returned": "yes",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2024-04907",
+            "date": "2024-10-16",
+            "event_type": "Death",
+            "device": "EGIA60AVM",
+            "lot": "N4A2100Y",
+            "returned": "yes",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "1219930-2024-04908",
+            "date": "2024-10-16",
+            "event_type": "Death",
+            "device": "EGIA60AVM",
+            "lot": "N4A2100Y",
+            "returned": "yes",
+            "problem": "Adverse Event Without Identified Device or Use Problem; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "1219930-2024-04966",
+            "date": "2024-10-18",
+            "event_type": "Death",
+            "device": "SIG60AXT",
+            "lot": "N4G2033Y",
+            "returned": "yes",
+            "problem": "Failure to Form Staple; Failure to Form Staple"
+          },
+          {
+            "report_number": "1219930-2024-05195",
+            "date": "2024-11-05",
+            "event_type": "Death",
+            "device": "SIGADAPTSTND",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "Unintended Movement; Unintended Movement"
+          },
+          {
+            "report_number": "1219930-2024-05192",
+            "date": "2024-11-05",
+            "event_type": "Death",
+            "device": "EGIA45AMT",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "Unintended Movement; Unintended Movement"
+          },
+          {
+            "report_number": "MW5162951",
+            "date": "2024-11-29",
+            "event_type": "Death",
+            "device": "48630W",
+            "lot": "K10240822",
+            "returned": "yes",
+            "problem": "Hemorrhage/Blood Loss/Bleeding"
+          },
+          {
+            "report_number": "MW5165696",
+            "date": "2025-02-06",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "\u2014",
+            "returned": "yes",
+            "problem": "Exsanguination; Vascular Dissection"
+          },
+          {
+            "report_number": "3005075853-2025-01040",
+            "date": "2025-02-06",
+            "event_type": "Death",
+            "device": "PVE35A",
+            "lot": "C9DP37",
+            "returned": "yes",
+            "problem": "Failure to Fire; Difficult to Open or Close"
+          },
+          {
+            "report_number": "2647580-2025-00580",
+            "date": "2025-02-20",
+            "event_type": "Death",
+            "device": "GIA6038S",
+            "lot": "P1F1504",
+            "returned": "yes",
+            "problem": "Mechanics Altered; Adverse Event Without Identified Device or Use Problem"
+          },
+          {
+            "report_number": "1219930-2025-01208",
+            "date": "2025-03-13",
+            "event_type": "Death",
+            "device": "SIGPSHELL",
+            "lot": "N4F2133Y",
+            "returned": "yes",
+            "problem": "Insufficient Device Problem Information; Complete Loss of Power"
+          },
+          {
+            "report_number": "3005075853-2025-02131",
+            "date": "2025-03-25",
+            "event_type": "Death",
+            "device": "ECH60S",
+            "lot": "C9DV27",
+            "returned": "yes",
+            "problem": "Failure to Fire; Difficult to Open or Close"
+          },
+          {
+            "report_number": "2955842-2025-13704",
+            "date": "2025-04-07",
+            "event_type": "Death",
+            "device": "48345W",
+            "lot": "N/A",
+            "returned": "yes",
+            "problem": "Insufficient Device Problem Information; Insufficient Device Problem Information"
+          },
+          {
+            "report_number": "2955842-2025-36827",
+            "date": "2025-09-08",
+            "event_type": "Death",
+            "device": "48630W-06",
+            "lot": "N/A",
+            "returned": "yes",
+            "problem": "Firing Problem; Firing Problem"
+          },
+          {
+            "report_number": "MW5155991",
+            "date": "2024-06-07",
+            "event_type": "Death",
+            "device": "ETHICON CIRCULAR STAPLER 29MM",
+            "lot": "\u2014",
+            "returned": "\u2014",
+            "problem": "Insufficient Information"
+          }
+        ]
+      },
+      "chart": {
+        "kind": "bars",
+        "title": "Stapler/staple death reports 2024-25 by reporting maker",
+        "unit": "death reports",
+        "data": [
+          {
+            "label": "Covidien / Medtronic",
+            "value": 75
+          },
+          {
+            "label": "Ethicon / J&J",
+            "value": 51
+          },
+          {
+            "label": "Intuitive",
+            "value": 18
+          }
+        ]
+      }
+    }
+  ]
+}
